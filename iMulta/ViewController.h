@@ -8,8 +8,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ColeccionMultas.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    ColeccionMultas *coleccionMultas;
+    
+}
+
+
+
+
 
 @property IBOutlet UITextField *automovilMarca;
 @property IBOutlet UITextField *automovilModelo;
